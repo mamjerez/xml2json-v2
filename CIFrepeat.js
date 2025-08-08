@@ -40,8 +40,16 @@ class CifRepeat {
         const month = commonInstance.getOldMonth(monthSelected);
         log('month', month);
 
-        // File existence is guaranteed by validation - read directly
+        // File existence is guaranteed by validation - but let's double check
         const adjudicatariasFile = `${readPath}/todoAdjudicatarias${month}2025.json`;
+
+        if (!fs.existsSync(adjudicatariasFile)) {
+            console.error(`❌ Required file not found: ${adjudicatariasFile}`);
+            console.error(`   ReadPath: ${readPath}`);
+            console.error(`   Month: ${month}`);
+            throw new Error(`Required previous month adjudicatarias file not found: ${adjudicatariasFile}`);
+        }
+
         const oldData = fs.readFileSync(adjudicatariasFile);
         const oldDataJson = JSON.parse(oldData);
         console.log(`Previous adjudicatarias data loaded: ${oldDataJson.length} entries`);
@@ -150,8 +158,9 @@ class CifRepeat {
         return uniqueTender; //
     }
 
-    logFinal(dataInitial, listRepeat, listRepeatMajor, listNoRepeat, monthSelected) {
-        const path = `C:/Users/Usuario/OneDrive/OCM/Plataforma de contratacion del sector publico/Datos abiertos/Tratados con CIFrepeat.js/2025/${monthSelected}`;
+    logFinal(dataInitial, listRepeat, listRepeatMajor, listNoRepeat, monthSelected, writePath) {
+        // Use writePath instead of hardcoded path - simplified structure
+        const path = writePath || `D:/xml2json-v2/resultados_prueba/${monthSelected}`;
 
         const logFinal = {
             'Total resultados iniciales:': dataInitial.length,

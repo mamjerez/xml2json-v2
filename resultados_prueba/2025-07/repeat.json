@@ -1,0 +1,58 @@
+[
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zkfAyEnTxSE%2FbjW6njtWLw%3D%3D",
+    "summary": "Id licitación: Asueco 2025/1063; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 14400 EUR; Estado: RES",
+    "title": "Servicio de animación infantil en Verbenas de Barriadas Rurales.",
+    "updated": "2025-07-09T11:24:52.004+02:00",
+    "ContractFolderID": "Asueco 2025/1063",
+    "DurationMeasure": "2",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de animación infantil en Verbenas de Barriadas Rurales.",
+    "TypeCode": "2",
+    "SubTypeCode": "26",
+    "TotalAmount": 17424,
+    "TaxExclusiveAmount": 14400,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-07-02",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "47335812H",
+        "PartyName": "Alvaro Delgado Ruiz",
+        "TaxExclusiveAmount": 14400,
+        "PayableAmount": 17424
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zkfAyEnTxSE%2FbjW6njtWLw%3D%3D",
+    "summary": "Id licitación: Asueco 2025/1063; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 14400 EUR; Estado: RES",
+    "title": "Servicio de animación infantil en Verbenas de Barriadas Rurales.",
+    "updated": "2025-07-10T10:34:51.839+02:00",
+    "ContractFolderID": "Asueco 2025/1063",
+    "DurationMeasure": "2",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de animación infantil en Verbenas de Barriadas Rurales.",
+    "TypeCode": "2",
+    "SubTypeCode": "26",
+    "TotalAmount": 17424,
+    "TaxExclusiveAmount": 14400,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-07-02",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "47335812H",
+        "PartyName": "Alvaro Delgado Ruiz",
+        "TaxExclusiveAmount": 14400,
+        "PayableAmount": 17424
+      }
+    ]
+  }
+]

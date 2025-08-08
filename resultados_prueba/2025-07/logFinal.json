@@ -1,0 +1,10 @@
+{
+  "Tiempo para ejecutar extractZip()": "0.05 minutos",
+  "Tiempo para ejecutar parseXML2JSON()": "0.63 minutos",
+  "Tiempo para ejecutar mapJSON()": "0 minutos",
+  "Total líneas XML analizadas": "33.979.771",
+  "Total contratos menores encontrados:": 83,
+  "Total contratos menores sin repeticiones": 82,
+  "Total contratos menores con repeticiones": 2,
+  "Total contratos menores repetidos más recientes": 1
+}

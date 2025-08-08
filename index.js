@@ -59,11 +59,13 @@ class OptimizedXml2JsonApp {
 
     /**
      * Validates that all required files and directories exist before processing
+     * This method performs ALL validations upfront to avoid runtime errors
      * @param {string} month - Month to process
      * @returns {Promise<boolean>} True if all validations pass
      */
     async validateRequiredFilesAndFolders(month) {
         console.log('************** VALIDANDO ARCHIVOS Y CARPETAS NECESARIOS ********************');
+        console.log(`Validando para el mes: ${month}, modo prueba: ${isTestMode}`);
 
         const errors = [];
         const oldMonth = commonInstance.getOldMonth(month);
@@ -103,28 +105,37 @@ class OptimizedXml2JsonApp {
             }
         }
 
-        // Check previous month data files (REQUIRED) - check both test and normal paths
+        // Check previous month data files (REQUIRED) - prioritize based on test mode
         const previousMonthFiles = [
             `todo${oldMonth}${config.YEAR}NoRepeatOkCIFOK.json`,
             `todoAdjudicatarias${oldMonth}${config.YEAR}.json`,
         ];
 
         for (const fileName of previousMonthFiles) {
-            const normalPath = path.join(config.PATHS.APP_PATH, fileName);
-            const testPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, fileName);
+            let primaryPath, secondaryPath;
+
+            if (isTestMode.toUpperCase() === 'S') {
+                // In test mode, prioritize test path first
+                primaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${oldMonth}`, fileName);
+                secondaryPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${oldMonth}`, fileName);
+            } else {
+                // In normal mode, prioritize normal path first
+                primaryPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${oldMonth}`, fileName);
+                secondaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${oldMonth}`, fileName);
+            }
 
             let fileFound = false;
-            if (FileUtils.fileExists(normalPath)) {
-                console.log(`✅ Previous month file found in normal path: ${normalPath}`);
+            if (FileUtils.fileExists(primaryPath)) {
+                console.log(`✅ Previous month file found in primary path: ${primaryPath}`);
                 fileFound = true;
-            } else if (FileUtils.fileExists(testPath)) {
-                console.log(`✅ Previous month file found in test path: ${testPath}`);
+            } else if (FileUtils.fileExists(secondaryPath)) {
+                console.log(`✅ Previous month file found in secondary path: ${secondaryPath}`);
                 fileFound = true;
             }
 
             if (!fileFound) {
                 errors.push(
-                    `❌ Required previous month file missing: ${fileName} (checked both ${normalPath} and ${testPath})`
+                    `❌ Required previous month file missing: ${fileName} (checked ${primaryPath} and ${secondaryPath})`
                 );
             }
         }
@@ -143,6 +154,7 @@ class OptimizedXml2JsonApp {
 
     /**
      * Builds file paths based on process type and month
+     * Simplificado: todos los resultados van a una única carpeta year-month
      */
     buildPaths(processType, month) {
         const isLicitaciones = processType === config.PROCESS_TYPES.LICITACIONES;
@@ -152,14 +164,12 @@ class OptimizedXml2JsonApp {
             .replace('PROCCESS', fileNames.PROCESS)
             .replace('MONTH', month);
 
-        // Check if it's test mode
+        // Simplificación: una única carpeta con formato year-month
         let resultsPath;
         if (isTestMode.toUpperCase() === 'S') {
-            // Create organized structure: resultados_prueba/2025/07/licitaciones or contratos_menores
-            const processFolder = isLicitaciones ? 'licitaciones' : 'contratos_menores';
-            resultsPath = `${config.PATHS.TEST_RESULTS_BASE_PATH}/${config.YEAR}/${month}/${processFolder}`;
+            resultsPath = `${config.PATHS.TEST_RESULTS_BASE_PATH}/${config.YEAR}-${month}`;
         } else {
-            resultsPath = config.PATHS.RESULTS_TEMPLATE.replace('FOLDER', fileNames.FOLDER) + `/${month}`;
+            resultsPath = `${config.PATHS.APP_PATH}/${config.YEAR}-${month}`;
         }
 
         return { zipPath, resultsPath };
@@ -326,24 +336,29 @@ class OptimizedXml2JsonApp {
         const month = commonInstance.getOldMonth(responseMonth);
         console.log('Merging with previous month:', month);
 
-        // Check both test and normal paths for previous month file
+        // Use the same prioritization logic established in validation
         const fileName = `todo${month}${config.YEAR}NoRepeatOkCIFOK.json`;
-        const normalPath = path.join(config.PATHS.APP_PATH, fileName);
 
-        // For test mode, check in the organized structure
-        let testPath;
+        let primaryPath, secondaryPath;
         if (isTestMode.toUpperCase() === 'S') {
-            testPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, config.YEAR, month, 'finales', fileName);
+            // In test mode, prioritize test path first
+            primaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${month}`, fileName);
+            secondaryPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${month}`, fileName);
         } else {
-            testPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, fileName);
+            // In normal mode, prioritize normal path first
+            primaryPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${month}`, fileName);
+            secondaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${month}`, fileName);
         }
 
-        let appPathFileData = normalPath;
-        if (FileUtils.fileExists(testPath)) {
-            appPathFileData = testPath;
-            console.log('Using previous month file from test path:', testPath);
+        let appPathFileData;
+        if (FileUtils.fileExists(primaryPath)) {
+            appPathFileData = primaryPath;
+            console.log('Using previous month file from primary path:', primaryPath);
+        } else if (FileUtils.fileExists(secondaryPath)) {
+            appPathFileData = secondaryPath;
+            console.log('Using previous month file from secondary path:', secondaryPath);
         } else {
-            console.log('Using previous month file from normal path:', normalPath);
+            throw new Error(`Previous month file not found in either path: ${primaryPath} or ${secondaryPath}`);
         }
 
         try {
@@ -358,14 +373,16 @@ class OptimizedXml2JsonApp {
 
             const repeatJsonMerge = commonInstance.searchRepeat(existingData);
 
+            // Simplified output path: single directory year-month
             let outputPath;
             if (isTestMode.toUpperCase() === 'S') {
-                outputPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, config.YEAR, responseMonth, 'finales');
-                // Create the directory if it doesn't exist
-                await FileUtils.ensureDir(outputPath);
+                outputPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${responseMonth}`);
             } else {
-                outputPath = config.PATHS.APP_PATH;
+                outputPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${responseMonth}`);
             }
+
+            // Create the directory if it doesn't exist
+            await FileUtils.ensureDir(outputPath);
 
             searchRepeatInstance.saveResultRepeat(
                 existingData.length,
@@ -376,19 +393,16 @@ class OptimizedXml2JsonApp {
                 outputPath
             );
 
-            // For CIFrepeat, create adjudicatarias subfolder in test mode
-            let cifOutputPath = outputPath;
-            if (isTestMode.toUpperCase() === 'S') {
-                cifOutputPath = path.join(
-                    config.PATHS.TEST_RESULTS_BASE_PATH,
-                    config.YEAR,
-                    responseMonth,
-                    'adjudicatarias'
-                );
-                await FileUtils.ensureDir(cifOutputPath);
-            }
+            // CIF processing uses the same path where we found the main file
+            const readPath = path.dirname(appPathFileData);
+            console.log(`CIFrepeat will read from: ${readPath}`);
 
-            cifrepeatInstance.question(repeatJsonMerge.noRepeat, responseMonth, config.PATHS.APP_PATH, cifOutputPath);
+            cifrepeatInstance.question(
+                repeatJsonMerge.noRepeat,
+                responseMonth,
+                readPath, // Read path for previous month (same directory as main file)
+                outputPath // Write path for current month
+            );
         } catch (error) {
             console.error('Error merging JSON files:', error);
             throw error;

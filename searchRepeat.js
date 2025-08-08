@@ -4,11 +4,8 @@ const commonInstance = new Common();
 
 class SearchRepeat {
     saveResultRepeat(dataInitial, listRepeat, listNoRepeat, listRepeatMajor, monthSelected, outputPath) {
-        // Use outputPath if provided, otherwise use default SEARCH_REPEAT_PATH
-        const pathRepeat = outputPath
-            ? `${outputPath}/${monthSelected}`
-            : 'C:/Users/Usuario/OneDrive/OCM/Plataforma de contratacion del sector publico/Datos abiertos/Tratados con searchRepeat.js/2025/' +
-              monthSelected;
+        // Use outputPath directly - it already contains the simplified year-month structure
+        const pathRepeat = outputPath;
 
         if (!fs.existsSync(pathRepeat)) {
             fs.mkdirSync(pathRepeat, { recursive: true });
