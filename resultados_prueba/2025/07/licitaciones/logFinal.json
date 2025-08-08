@@ -1,0 +1,10 @@
+{
+  "Tiempo para ejecutar extractZip()": "0.21 minutos",
+  "Tiempo para ejecutar parseXML2JSON()": "2.90 minutos",
+  "Tiempo para ejecutar mapJSON()": "0 minutos",
+  "Total líneas XML analizadas": "26.624.391",
+  "Total licitaciones encontradas:": 40,
+  "Total licitaciones sin repeticiones": 22,
+  "Total licitaciones con repeticiones": 30,
+  "Total licitaciones repetidas más recientes": 12
+}
