@@ -1,4 +1,3 @@
-usar v2
 Em modo prueba graba todo en:
 D:\xml2json-v2\resultados_prueba
 
