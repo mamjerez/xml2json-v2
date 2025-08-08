@@ -1,5 +1,3 @@
-// linea para probar
-
 const readline = require('readline-sync');
 const path = require('path');
 
