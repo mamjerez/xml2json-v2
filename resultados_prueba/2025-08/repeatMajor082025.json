@@ -1,0 +1,304 @@
+[
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nnbrXU6US2EXhk1FZxEyvw%3D%3D",
+    "summary": "Id licitación: EMUVIJESA/PAT/1/2025; Órgano de Contratación: Gerencia de la Empresa Municipal de la Vivienda de Jerez, S.A.; Importe: 446171.12 EUR; Estado: ADJ",
+    "title": "Enajenación de 47 plazas de aparcamiento y 2 trasteros, propiedad de EMUVIJESA ",
+    "updated": "2025-08-24T14:12:38.313+02:00",
+    "ContractFolderID": "EMUVIJESA/PAT/1/2025",
+    "DurationMeasure": "Sin dato",
+    "unitCode": "Sin dato",
+    "ContractFolderStatusCode": "ADJ",
+    "Name": "Enajenación de 47 plazas de aparcamiento y 2 trasteros, propiedad de EMUVIJESA ",
+    "TypeCode": "50",
+    "SubTypeCode": "50",
+    "TotalAmount": 539867,
+    "TaxExclusiveAmount": 446171,
+    "ProcedureCode": "1",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "9",
+        "AwardDate": "2025-05-27",
+        "ReceivedTenderQuantity": "4",
+        "PartyIdentification": "32072116L",
+        "PartyName": "Jesús Pérez Sánchez",
+        "TaxExclusiveAmount": 2505,
+        "PayableAmount": 3031
+      },
+      {
+        "ResultCode": "9",
+        "AwardDate": "2025-05-27",
+        "ReceivedTenderQuantity": "5",
+        "PartyIdentification": "31660052T",
+        "PartyName": "José Romero Ortega",
+        "TaxExclusiveAmount": 10165,
+        "PayableAmount": 12300
+      },
+      {
+        "ResultCode": "9",
+        "AwardDate": "2025-05-27",
+        "ReceivedTenderQuantity": "2",
+        "PartyIdentification": "31735299Z",
+        "PartyName": "Pedro José García Fernández",
+        "TaxExclusiveAmount": 9000,
+        "PayableAmount": 10890
+      },
+      {
+        "ResultCode": "9",
+        "AwardDate": "2025-05-27",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "44492576L",
+        "PartyName": "Gustavo Iglesias Álvarez",
+        "TaxExclusiveAmount": 3160,
+        "PayableAmount": 3823
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=auoRNecYphhVkTabT%2FRM8A%3D%3D",
+    "summary": "Id licitación: PAT 5/25; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 37939.2 EUR; Estado: RES",
+    "title": "Concesión administrativa, del uso privativo y explotación de una Tienda de Recuerdos sita\r\nen el Conjunto Monumental del Alcázar de Jerez.",
+    "updated": "2025-08-25T10:08:39.706+02:00",
+    "ContractFolderID": "PAT 5/25",
+    "DurationMeasure": "4",
+    "unitCode": "ANN",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Concesión administrativa, del uso privativo y explotación de una Tienda de Recuerdos sita\r\nen el Conjunto Monumental del Alcázar de Jerez.",
+    "TypeCode": "50",
+    "SubTypeCode": "11",
+    "TotalAmount": 37939,
+    "TaxExclusiveAmount": 37939,
+    "ProcedureCode": "1",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-07-07",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B18905182",
+        "PartyName": "Optima Cultura SL",
+        "TaxExclusiveAmount": 40000,
+        "PayableAmount": 48400
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=suefDekfFAoeC9GJQOEBkQ%3D%3D",
+    "summary": "Id licitación: EMUVIJESA/PAS/2/2025; Órgano de Contratación: Gerencia de la Empresa Municipal de la Vivienda de Jerez, S.A.; Importe: 35565 EUR; Estado: RES",
+    "title": "Contratación del suministro, en régimen de alquiler, e instalación de puertas y pantallas antivandálicas, así como de sistemas de alarmas y otros sistemas de seguridad para la protección de los inmuebles y otras instalaciones gestionadas por la Empresa Municipal de la Vivienda de Jerez de la Frontera S.A.,(EMUVIJESA), en el término municipal de Jerez de la Frontera.",
+    "updated": "2025-08-23T20:34:03.307+02:00",
+    "ContractFolderID": "EMUVIJESA/PAS/2/2025",
+    "DurationMeasure": "1",
+    "unitCode": "ANN",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Contratación del suministro, en régimen de alquiler, e instalación de puertas y pantallas antivandálicas, así como de sistemas de alarmas y otros sistemas de seguridad para la protección de los inmuebles y otras instalaciones gestionadas por la Empresa Municipal de la Vivienda de Jerez de la Frontera S.A.,(EMUVIJESA), en el término municipal de Jerez de la Frontera.",
+    "TypeCode": "1",
+    "SubTypeCode": "1",
+    "TotalAmount": 43033,
+    "TaxExclusiveAmount": 35565,
+    "ProcedureCode": "9",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "9",
+        "AwardDate": "2025-06-27",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B63809560",
+        "PartyName": "WALLNER EUROPA S.L.",
+        "TaxExclusiveAmount": 26318,
+        "PayableAmount": 31844
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AXWBVq58Z4D5Rey58Yagpg%3D%3D",
+    "summary": "Id licitación: 22/2025; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 31487.6 EUR; Estado: EV",
+    "title": "Servicio de Secretaría técnica de la Feria de Economía Local de Jerez de la Frontera",
+    "updated": "2025-08-06T12:35:33.136+02:00",
+    "ContractFolderID": "22/2025",
+    "DurationMeasure": "1",
+    "unitCode": "ANN",
+    "ContractFolderStatusCode": "EV",
+    "Name": "Servicio de Secretaría técnica de la Feria de Economía Local de Jerez de la Frontera",
+    "TypeCode": "2",
+    "SubTypeCode": "27",
+    "TotalAmount": 38100,
+    "TaxExclusiveAmount": 31487,
+    "ProcedureCode": "1",
+    "UrgencyCode": "1"
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=r3lo6JCsu9HjHF5qKI4aaw%3D%3D",
+    "summary": "Id licitación: 23/2025; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 199512.47 EUR; Estado: EV",
+    "title": "Reurbanización de acerado en calle Santo Domingo, desde calle José Cádiz Salvatierra a Plaza del Caballo. Jerez de la Frontera",
+    "updated": "2025-08-01T10:04:49.726+02:00",
+    "ContractFolderID": "23/2025",
+    "DurationMeasure": "4",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "EV",
+    "Name": "Reurbanización de acerado en calle Santo Domingo, desde calle José Cádiz Salvatierra a Plaza del Caballo. Jerez de la Frontera",
+    "TypeCode": "3",
+    "SubTypeCode": "4500",
+    "TotalAmount": 241410,
+    "TaxExclusiveAmount": 199512,
+    "ProcedureCode": "9",
+    "UrgencyCode": "1"
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ysj3vQ2ZKHw7%2B9FIQYNjeQ%3D%3D",
+    "summary": "Id licitación: EMUVIJESA /PAS/3/2025; Órgano de Contratación: Gerencia de la Empresa Municipal de la Vivienda de Jerez, S.A.; Importe: 135000 EUR; Estado: ADJ",
+    "title": "Seguro de patrimonio y responsabilidad civil de edificaciones de viviendas de EMUVIJESA",
+    "updated": "2025-08-22T17:52:59.086+02:00",
+    "ContractFolderID": "EMUVIJESA /PAS/3/2025",
+    "DurationMeasure": "1",
+    "unitCode": "ANN",
+    "ContractFolderStatusCode": "ADJ",
+    "Name": "Seguro de patrimonio y responsabilidad civil de edificaciones de viviendas de EMUVIJESA",
+    "TypeCode": "2",
+    "SubTypeCode": "6",
+    "TotalAmount": 135000,
+    "TaxExclusiveAmount": 135000,
+    "ProcedureCode": "9",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-08-18",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "A28141935",
+        "PartyName": "MAPFRE ESPAÑA COMPAÑIA DE SEGUROS Y REASEGUROS S.A.",
+        "TaxExclusiveAmount": 134995,
+        "PayableAmount": 134995
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e5zcg%2FKS%2F8ngL1BHd3qjQA%3D%3D",
+    "summary": "Id licitación: COM-2025-04; Órgano de Contratación: Gerencia de Corporación Municipal de Jerez, S.A. (COMUJESA); Importe: 225000 EUR; Estado: RES",
+    "title": "Servicio de reparación de las cajas de cambio de la flota de autobuses urbanos de Jerez de la Frontera.",
+    "updated": "2025-08-29T09:43:00.251+02:00",
+    "ContractFolderID": "COM-2025-04",
+    "DurationMeasure": "3",
+    "unitCode": "ANN",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de reparación de las cajas de cambio de la flota de autobuses urbanos de Jerez de la Frontera.",
+    "TypeCode": "2",
+    "SubTypeCode": "1",
+    "TotalAmount": 272250,
+    "TaxExclusiveAmount": 225000,
+    "ProcedureCode": "1",
+    "UrgencyCode": "2",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "9",
+        "AwardDate": "2025-07-30",
+        "ReceivedTenderQuantity": "2",
+        "PartyIdentification": "B41108861",
+        "PartyName": "TRANSMISEVILLA SL",
+        "TaxExclusiveAmount": 14450,
+        "PayableAmount": 17484
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yAISuhwThwj5Rey58Yagpg%3D%3D",
+    "summary": "Id licitación: 25/2025; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 173450.08 EUR; Estado: EV",
+    "title": "Renovación de instalaciones deportivas municipales del Campo de Fútbol San Telmo de Jerez de la Frontera",
+    "updated": "2025-08-06T12:04:41.930+02:00",
+    "ContractFolderID": "25/2025",
+    "DurationMeasure": "2",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "EV",
+    "Name": "Renovación de instalaciones deportivas municipales del Campo de Fútbol San Telmo de Jerez de la Frontera",
+    "TypeCode": "3",
+    "SubTypeCode": "4500",
+    "TotalAmount": 209874,
+    "TaxExclusiveAmount": 173450,
+    "ProcedureCode": "9",
+    "UrgencyCode": "1"
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bOQYMmahRXiopEMYCmrbmw%3D%3D",
+    "summary": "Id licitación: ASUECO 2025/1163; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 658.85 EUR; Estado: RES",
+    "title": "Servicio de mantenimiento y alquiler del equipo de reprografía Image Runner ADV C33251 Serv Gestión Planes especiales y/o Fondos europeos.",
+    "updated": "2025-07-31T13:33:56.334+02:00",
+    "ContractFolderID": "ASUECO 2025/1163",
+    "DurationMeasure": "6",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de mantenimiento y alquiler del equipo de reprografía Image Runner ADV C33251 Serv Gestión Planes especiales y/o Fondos europeos.",
+    "TypeCode": "2",
+    "SubTypeCode": "1",
+    "TotalAmount": 797,
+    "TaxExclusiveAmount": 658,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-07-28",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11706520",
+        "PartyName": "SISTEMAS DE OFICINA JEREZ,S.L",
+        "TaxExclusiveAmount": 0,
+        "PayableAmount": 0
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ch1ufr5Ura2kU02jNGj1Fw%3D%3D",
+    "summary": "Id licitación: ASUECO-2025/1158; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 730.07 EUR; Estado: RES",
+    "title": "Servicio de Seguro RC y daños edificios Recurso Emergencia y calle Nueva",
+    "updated": "2025-07-31T13:01:16.699+02:00",
+    "ContractFolderID": "ASUECO-2025/1158",
+    "DurationMeasure": "15",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de Seguro RC y daños edificios Recurso Emergencia y calle Nueva",
+    "TypeCode": "2",
+    "SubTypeCode": "27",
+    "TotalAmount": 730,
+    "TaxExclusiveAmount": 730,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-07-28",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "A41003864",
+        "PartyName": "HELVETIA COMPAÑÍA SUIZA SOCIEDAD ANÓNIMA DE SEGUROS Y REASEGURADOS, S.A.",
+        "TaxExclusiveAmount": 0,
+        "PayableAmount": 0
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ThjxajgbNIX9pbnDwlaUlg%3D%3D",
+    "summary": "Id licitación: COM-NSP-2025-03; Órgano de Contratación: Gerencia de Corporación Municipal de Jerez, S.A. (COMUJESA); Importe: 21200 EUR; Estado: ADJ",
+    "title": "Servicio de transporte mediante góndolas de vehículos industriales.",
+    "updated": "2025-08-20T11:07:18.647+02:00",
+    "ContractFolderID": "COM-NSP-2025-03",
+    "DurationMeasure": "5",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "ADJ",
+    "Name": "Servicio de transporte mediante góndolas de vehículos industriales.",
+    "TypeCode": "2",
+    "SubTypeCode": "2",
+    "TotalAmount": 25652,
+    "TaxExclusiveAmount": 21200,
+    "ProcedureCode": "3",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-08-20",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B75125070",
+        "PartyName": "TRANSORDIZIA HIGH & HEAVY SL",
+        "TaxExclusiveAmount": 2650,
+        "PayableAmount": 3206
+      }
+    ]
+  }
+]

@@ -1,9 +1,33 @@
+Datos:
+https://www.hacienda.gob.es/es-ES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitaciones_plataforma_contratacion.aspx
+
+Hay tres tipos de ficheros:
+1.- ​Licitaciones publicadas en los perfiles del contratante ubicados en la Plataforma de Contratación del Sector Público, excluyendo los contratos menores.
+
+2.- Licitaciones publicadas en la Plataforma mediante mecanismos de agregación, excluyendo los contratos menores.
+En estos ficheros estas las licitaciones que ha hecho la Junta de Andalucía. Buscando por Jerez tendremos datos.
+
+3.- Contratos menores publicados en los perfiles del contratante ubicados en la Plataforma de Contratación del Sector Público.
+
+.- Hay que tratar 2 ficheros los del tipo 1 y 3:
+Licitaciones
+Contratos menores.
+
+Bajar ficheros de la pagina del Ministerio.
+Guardar en:
+C:\Users\Usuario\OneDrive\OCM\Plataforma de contratacion del sector publico\Datos abiertos\licitaciones\2025
+C:\Users\Usuario\OneDrive\OCM\Plataforma de contratacion del sector publico\Datos abiertos\contratos menores\2025
+
+---
+
 Em modo prueba graba todo en:
 D:\xml2json-v2\resultados_prueba
 
 Renombar todo072025NoRepeatOkCIFOK.json a licitacionesContratos.json
 Sustituir en En ocm uso licitacionesContratos.json
+ocm
 No hay que cambiar nada en el codigo.
+Cambiar fecha y hacer deploy
 
 #
 
