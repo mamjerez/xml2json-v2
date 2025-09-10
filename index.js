@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const readline = require('readline-sync');
 const path = require('path');
 
