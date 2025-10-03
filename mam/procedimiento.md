@@ -20,6 +20,8 @@ C:\Users\Usuario\OneDrive\OCM\Plataforma de contratacion del sector publico\Dato
 
 ---
 
+node index
+
 Em modo prueba graba todo en:
 D:\xml2json-v2\resultados_prueba
 
