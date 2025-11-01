@@ -22,14 +22,20 @@ C:\Users\Usuario\OneDrive\OCM\Plataforma de contratacion del sector publico\Dato
 
 node index
 
+Graba los resultados en:
+APP_PATH: 'D:/licitaciones/src/assets/data',
+
 Em modo prueba graba todo en:
 D:\xml2json-v2\resultados_prueba
 
-Renombar todo072025NoRepeatOkCIFOK.json a licitacionesContratos.json
-Sustituir en En ocm uso licitacionesContratos.json
+Copiar todoMES2025NoRepeatOkCIFOK.json en:
+D:\ocm\src\assets\licitaciones-contratos-menores
+
+Renombar todoMES72025NoRepeatOkCIFOK.json a licitacionesContratos.json
+
 ocm
 No hay que cambiar nada en el codigo.
-Cambiar fecha y hacer deploy
+Cambiar fecha en package.json y hacer deploy
 
 #
 
