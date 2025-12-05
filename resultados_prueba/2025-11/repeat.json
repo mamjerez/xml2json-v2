@@ -1,0 +1,58 @@
+[
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=UfrOEJV9s6MXhk1FZxEyvw%3D%3D",
+    "summary": "Id licitación: ASUECO 2025/1742; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 1057.2 EUR; Estado: RES",
+    "title": "Servicio de traducción al romanó de la información publicada en la nueva web de la candidatura de Jerez a Capital Europea de la Cultura",
+    "updated": "2025-11-05T12:26:22.083+01:00",
+    "ContractFolderID": "ASUECO 2025/1742",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de traducción al romanó de la información publicada en la nueva web de la candidatura de Jerez a Capital Europea de la Cultura",
+    "TypeCode": "2",
+    "SubTypeCode": "1",
+    "TotalAmount": 1057,
+    "TaxExclusiveAmount": 1057,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-11-03",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "50953756Q",
+        "PartyName": "NICOLÁS JIMÉNEZ GONZÁLEZ",
+        "TaxExclusiveAmount": 1057,
+        "PayableAmount": 1057
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=UfrOEJV9s6MXhk1FZxEyvw%3D%3D",
+    "summary": "Id licitación: ASUECO 2025/1742; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 1057.2 EUR; Estado: RES",
+    "title": "Servicio de traducción al romanó de la información publicada en la nueva web de la candidatura de Jerez a Capital Europea de la Cultura",
+    "updated": "2025-11-28T12:12:28.103+01:00",
+    "ContractFolderID": "ASUECO 2025/1742",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de traducción al romanó de la información publicada en la nueva web de la candidatura de Jerez a Capital Europea de la Cultura",
+    "TypeCode": "2",
+    "SubTypeCode": "1",
+    "TotalAmount": 1057,
+    "TaxExclusiveAmount": 1057,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-11-26",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "50953756Q",
+        "PartyName": "NICOLÁS JIMÉNEZ GONZÁLEZ",
+        "TaxExclusiveAmount": 1243,
+        "PayableAmount": 1243
+      }
+    ]
+  }
+]
