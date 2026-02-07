@@ -2,12 +2,12 @@
 module.exports = {
     PATHS: {
         ZIP_TEMPLATE:
-            'C:/Users/Usuario/OneDrive/OCM/Plataforma de contratacion del sector publico/Datos abiertos/FOLDER/2025/PROCCESS_2025MONTH.zip',
+            'C:/Users/Usuario/OneDrive/OCM/Plataforma de contratacion del sector publico/Datos abiertos/FOLDER/YEAR/PROCCESS_YEARMONTH.zip',
         RESULTS_TEMPLATE:
-            'C:/Users/Usuario/OneDrive/OCM/Plataforma de contratacion del sector publico/Datos abiertos/FOLDER/2025/resultados',
+            'C:/Users/Usuario/OneDrive/OCM/Plataforma de contratacion del sector publico/Datos abiertos/FOLDER/YEAR/resultados',
         APP_PATH: 'D:/licitaciones/src/assets/data',
         SEARCH_REPEAT_PATH:
-            'C:/Users/Usuario/OneDrive/OCM/Plataforma de contratacion del sector publico/Datos abiertos/Tratados con searchRepeat.js/2025',
+            'C:/Users/Usuario/OneDrive/OCM/Plataforma de contratacion del sector publico/Datos abiertos/Tratados con searchRepeat.js/YEAR',
         // Nueva carpeta unificada para pruebas con estructura organizacional
         TEST_RESULTS_BASE_PATH: 'D:/xml2json-v2/resultados_prueba',
         EXTRACTED_DIR: './extracted',
@@ -37,5 +37,5 @@ module.exports = {
         },
     },
 
-    YEAR: '2025',
+    YEAR: '2026',
 };

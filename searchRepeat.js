@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Common = require('./common');
 const commonInstance = new Common();
+const config = require('./config');
 
 class SearchRepeat {
     saveResultRepeat(dataInitial, listRepeat, listNoRepeat, listRepeatMajor, monthSelected, outputPath) {
@@ -11,9 +12,9 @@ class SearchRepeat {
             fs.mkdirSync(pathRepeat, { recursive: true });
         }
 
-        commonInstance.createFile(`${pathRepeat}/repeat${monthSelected}2025.json`, listRepeat);
-        commonInstance.createFile(`${pathRepeat}/repeatMajor${monthSelected}2025.json`, listRepeatMajor);
-        commonInstance.createFile(`${pathRepeat}/todo${monthSelected}2025NoRepeatOK.json`, listNoRepeat);
+        commonInstance.createFile(`${pathRepeat}/repeat${monthSelected}${config.YEAR}.json`, listRepeat);
+        commonInstance.createFile(`${pathRepeat}/repeatMajor${monthSelected}${config.YEAR}.json`, listRepeatMajor);
+        commonInstance.createFile(`${pathRepeat}/todo${monthSelected}${config.YEAR}NoRepeatOK.json`, listNoRepeat);
         console.log('Resultados repetidos', listRepeat.length);
         console.log('Resultados con fecha mayor', listRepeatMajor.length);
         console.log('Resultados sin repeticiones', listNoRepeat.length);
@@ -42,7 +43,7 @@ class SearchRepeat {
             'Total resultados sin repeticiones': listNoRepeat,
         };
 
-        commonInstance.createFile(`${pathRepeat}/logFinal${monthSelected}2025.json`, logFinal);
+        commonInstance.createFile(`${pathRepeat}/logFinal${monthSelected}${config.YEAR}.json`, logFinal);
     }
 }
 module.exports = SearchRepeat;

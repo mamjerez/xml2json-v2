@@ -70,9 +70,11 @@ class OptimizedXml2JsonApp {
 
         const errors = [];
         const oldMonth = commonInstance.getOldMonth(month);
+        const oldYear = commonInstance.getOldYear(month, config.YEAR);
 
-        // Check required directories
-        const requiredDirs = [config.PATHS.APP_PATH, config.PATHS.SEARCH_REPEAT_PATH];
+        // Check required directories - substitute YEAR placeholder
+        const searchRepeatPath = config.PATHS.SEARCH_REPEAT_PATH.replace('YEAR', config.YEAR);
+        const requiredDirs = [config.PATHS.APP_PATH, searchRepeatPath];
 
         if (isTestMode.toUpperCase() === 'S') {
             // Ensure test results directory exists
@@ -86,7 +88,13 @@ class OptimizedXml2JsonApp {
 
         for (const dir of requiredDirs) {
             if (!FileUtils.fileExists(dir)) {
-                errors.push(`❌ Required directory missing: ${dir}`);
+                // Try to create the directory if it doesn't exist
+                try {
+                    await FileUtils.ensureDir(dir);
+                    console.log(`✅ Directory created: ${dir}`);
+                } catch (error) {
+                    errors.push(`❌ Cannot create required directory: ${dir}`);
+                }
             } else {
                 console.log(`✅ Directory found: ${dir}`);
             }
@@ -107,9 +115,10 @@ class OptimizedXml2JsonApp {
         }
 
         // Check previous month data files (REQUIRED) - prioritize based on test mode
+        // Use oldYear for previous month files (handles year change when month is January)
         const previousMonthFiles = [
-            `todo${oldMonth}${config.YEAR}NoRepeatOkCIFOK.json`,
-            `todoAdjudicatarias${oldMonth}${config.YEAR}.json`,
+            `todo${oldMonth}${oldYear}NoRepeatOkCIFOK.json`,
+            `todoAdjudicatarias${oldMonth}${oldYear}.json`,
         ];
 
         for (const fileName of previousMonthFiles) {
@@ -117,12 +126,12 @@ class OptimizedXml2JsonApp {
 
             if (isTestMode.toUpperCase() === 'S') {
                 // In test mode, prioritize test path first
-                primaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${oldMonth}`, fileName);
-                secondaryPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${oldMonth}`, fileName);
+                primaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${oldYear}-${oldMonth}`, fileName);
+                secondaryPath = path.join(config.PATHS.APP_PATH, `${oldYear}-${oldMonth}`, fileName);
             } else {
                 // In normal mode, prioritize normal path first
-                primaryPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${oldMonth}`, fileName);
-                secondaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${oldMonth}`, fileName);
+                primaryPath = path.join(config.PATHS.APP_PATH, `${oldYear}-${oldMonth}`, fileName);
+                secondaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${oldYear}-${oldMonth}`, fileName);
             }
 
             let fileFound = false;
@@ -162,6 +171,7 @@ class OptimizedXml2JsonApp {
         const fileNames = isLicitaciones ? config.FILE_NAMES.LICITACIONES : config.FILE_NAMES.CONTRATOS_MENORES;
 
         const zipPath = config.PATHS.ZIP_TEMPLATE.replace('FOLDER', fileNames.FOLDER)
+            .replace(/YEAR/g, config.YEAR)
             .replace('PROCCESS', fileNames.PROCESS)
             .replace('MONTH', month);
 
@@ -335,20 +345,22 @@ class OptimizedXml2JsonApp {
      */
     async mergeJsonFinal() {
         const month = commonInstance.getOldMonth(responseMonth);
-        console.log('Merging with previous month:', month);
+        const year = commonInstance.getOldYear(responseMonth, config.YEAR);
+        console.log('Merging with previous month:', month, 'year:', year);
 
         // Use the same prioritization logic established in validation
-        const fileName = `todo${month}${config.YEAR}NoRepeatOkCIFOK.json`;
+        // Use calculated year for previous month files (handles year change when month is January)
+        const fileName = `todo${month}${year}NoRepeatOkCIFOK.json`;
 
         let primaryPath, secondaryPath;
         if (isTestMode.toUpperCase() === 'S') {
             // In test mode, prioritize test path first
-            primaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${month}`, fileName);
-            secondaryPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${month}`, fileName);
+            primaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${year}-${month}`, fileName);
+            secondaryPath = path.join(config.PATHS.APP_PATH, `${year}-${month}`, fileName);
         } else {
             // In normal mode, prioritize normal path first
-            primaryPath = path.join(config.PATHS.APP_PATH, `${config.YEAR}-${month}`, fileName);
-            secondaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${config.YEAR}-${month}`, fileName);
+            primaryPath = path.join(config.PATHS.APP_PATH, `${year}-${month}`, fileName);
+            secondaryPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${year}-${month}`, fileName);
         }
 
         let appPathFileData;

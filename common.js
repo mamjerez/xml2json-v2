@@ -102,6 +102,29 @@ class Common {
     }
 
     /**
+     * Get the year for the previous month (handles year change when month is January)
+     * @param {string|number} monthCurrent - Current month
+     * @param {string} currentYear - Current year
+     * @returns {string} Year for the previous month
+     */
+    getOldYear(monthCurrent, currentYear) {
+        const month = Number(monthCurrent);
+        const year = Number(currentYear);
+
+        if (isNaN(month) || month < 1 || month > 12) {
+            throw new Error(`Invalid month: ${monthCurrent}. Must be between 1 and 12.`);
+        }
+
+        // If current month is January, previous month is in previous year
+        if (month === 1) {
+            console.log(`Year change detected: previous month (December) is in year ${year - 1}`);
+            return (year - 1).toString();
+        }
+
+        return currentYear.toString();
+    }
+
+    /**
      * Validates if a date string is valid
      * @param {string} dateString - Date string to validate
      * @returns {boolean} True if valid date

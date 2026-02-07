@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Common = require('./common');
 const commonInstance = new Common();
+const config = require('./config');
 
 const readline = require('readline-sync');
 const { log } = require('console');
@@ -38,10 +39,11 @@ class CifRepeat {
         // })
 
         const month = commonInstance.getOldMonth(monthSelected);
-        log('month', month);
+        const year = commonInstance.getOldYear(monthSelected, config.YEAR);
+        log('month', month, 'year', year);
 
         // File existence is guaranteed by validation - but let's double check
-        const adjudicatariasFile = `${readPath}/todoAdjudicatarias${month}2025.json`;
+        const adjudicatariasFile = `${readPath}/todoAdjudicatarias${month}${year}.json`;
 
         if (!fs.existsSync(adjudicatariasFile)) {
             console.error(`❌ Required file not found: ${adjudicatariasFile}`);
@@ -122,9 +124,12 @@ class CifRepeat {
             return 0;
         });
 
-        commonInstance.createFile(`${writePath}/todoAdjudicatarias${monthSelected}2025.json`, adjudicatarias);
-        commonInstance.createFile(`${writePath}/todo${monthSelected}2025NoRepeatOkCIFOK.json`, dataInitial);
-        commonInstance.createFile(`${writePath}/nuevasAdjudicatarias${monthSelected}2025.json`, newAdjudicatarias);
+        commonInstance.createFile(`${writePath}/todoAdjudicatarias${monthSelected}${config.YEAR}.json`, adjudicatarias);
+        commonInstance.createFile(`${writePath}/todo${monthSelected}${config.YEAR}NoRepeatOkCIFOK.json`, dataInitial);
+        commonInstance.createFile(
+            `${writePath}/nuevasAdjudicatarias${monthSelected}${config.YEAR}.json`,
+            newAdjudicatarias
+        );
         // this.logFinal()
     }
 
@@ -168,7 +173,7 @@ class CifRepeat {
             'Total resultados repetidos más recientes': listRepeatMajor,
             'Total resultados sin repeticiones': listNoRepeat,
         };
-        commonInstance.createFile(`${path}/logFinal${monthSelected}2025.json`, logFinal);
+        commonInstance.createFile(`${path}/logFinal${monthSelected}${config.YEAR}.json`, logFinal);
     }
 }
 

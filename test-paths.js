@@ -7,7 +7,7 @@ const config = require('./config');
 console.log('=== TESTING FILE PATHS ===');
 
 const month = '06'; // Previous month
-const year = '2025';
+const year = config.YEAR; // Use year from config
 
 // Test paths
 const testPath = path.join(config.PATHS.TEST_RESULTS_BASE_PATH, `${year}-${month}`);
@@ -21,8 +21,8 @@ console.log('\nDirectory checks:');
 console.log('Test dir exists:', fs.existsSync(testPath));
 console.log('Normal dir exists:', fs.existsSync(normalPath));
 
-// Check files
-const files = ['todo062025NoRepeatOkCIFOK.json', 'todoAdjudicatarias062025.json'];
+// Check files - use year from config
+const files = [`todo${month}${year}NoRepeatOkCIFOK.json`, `todoAdjudicatarias${month}${year}.json`];
 
 console.log('\nFile checks:');
 files.forEach((fileName) => {
