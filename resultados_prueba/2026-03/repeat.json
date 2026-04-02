@@ -1,0 +1,76 @@
+[
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k9%2BsEQmAcVbmnwcj%2BxbdTg%3D%3D",
+    "summary": "Id licitación: ASUECO 2025/2173; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 3000 EUR; Estado: RES",
+    "title": "Servicio para la celebración de dos  pasacalles musicales los días 2 y 3 de enero de 2026.",
+    "updated": "2026-03-06T13:16:14.033+01:00",
+    "ContractFolderID": "ASUECO 2025/2173",
+    "DurationMeasure": "3",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio para la celebración de dos  pasacalles musicales los días 2 y 3 de enero de 2026.",
+    "TypeCode": "2",
+    "SubTypeCode": "26",
+    "TotalAmount": 3000,
+    "TaxExclusiveAmount": 3000,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-12-09",
+        "ReceivedTenderQuantity": "2",
+        "PartyIdentification": "G19367655",
+        "PartyName": "Agrupación musical Cristo de la Clemencia",
+        "TaxExclusiveAmount": 1500,
+        "PayableAmount": 1500
+      },
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-12-09",
+        "ReceivedTenderQuantity": "2",
+        "PartyIdentification": "G11949989",
+        "PartyName": "Agrupación musical San Juan",
+        "TaxExclusiveAmount": 1500,
+        "PayableAmount": 1500
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k9%2BsEQmAcVbmnwcj%2BxbdTg%3D%3D",
+    "summary": "Id licitación: ASUECO 2025/2173; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 3000 EUR; Estado: RES",
+    "title": "Servicio para la celebración de dos  pasacalles musicales los días 2 y 3 de enero de 2026.",
+    "updated": "2026-03-09T12:03:05.985+01:00",
+    "ContractFolderID": "ASUECO 2025/2173",
+    "DurationMeasure": "3",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio para la celebración de dos  pasacalles musicales los días 2 y 3 de enero de 2026.",
+    "TypeCode": "2",
+    "SubTypeCode": "26",
+    "TotalAmount": 3000,
+    "TaxExclusiveAmount": 3000,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-12-09",
+        "ReceivedTenderQuantity": "2",
+        "PartyIdentification": "G19367655",
+        "PartyName": "Agrupación musical Cristo de la Clemencia",
+        "TaxExclusiveAmount": 1500,
+        "PayableAmount": 1500
+      },
+      {
+        "ResultCode": "8",
+        "AwardDate": "2025-12-09",
+        "ReceivedTenderQuantity": "2",
+        "PartyIdentification": "G11949989",
+        "PartyName": "Agrupación musical San Juan",
+        "TaxExclusiveAmount": 1500,
+        "PayableAmount": 1500
+      }
+    ]
+  }
+]
