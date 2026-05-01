@@ -31,7 +31,7 @@ D:\xml2json-v2\resultados_prueba
 Copiar todoMES2025NoRepeatOkCIFOK.json en:
 D:\ocm\src\assets\licitaciones-contratos-menores
 
-Renombar todoMES72025NoRepeatOkCIFOK.json a licitacionesContratos.json
+Renombar todoMESNoRepeatOkCIFOK.json a licitacionesContratos.json
 
 ocm
 No hay que cambiar nada en el codigo.
