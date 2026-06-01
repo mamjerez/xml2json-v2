@@ -29,6 +29,7 @@ Em modo prueba graba todo en:
 D:\xml2json-v2\resultados_prueba
 
 Copiar todoMES2025NoRepeatOkCIFOK.json en:
+COPIAR NO MOVER
 D:\ocm\src\assets\licitaciones-contratos-menores
 
 Renombar todoMESNoRepeatOkCIFOK.json a licitacionesContratos.json
