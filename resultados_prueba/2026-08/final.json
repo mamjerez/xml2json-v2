@@ -1,0 +1,842 @@
+[
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=qp6CKxFRQn04NavIWzMcHA%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1282; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 14790 EUR; Estado: RES",
+    "title": "Servicio de desinfección, desinsectación, desratización (ddd), y control de palomas y de especies y plagas invasoras para la salud pública, en el término municipal de Jerez de la Frontera",
+    "updated": "2026-07-31T10:35:56.569+02:00",
+    "ContractFolderID": "ASUECO 2026/1282",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de desinfección, desinsectación, desratización (ddd), y control de palomas y de especies y plagas invasoras para la salud pública, en el término municipal de Jerez de la Frontera",
+    "TypeCode": "2",
+    "SubTypeCode": "1",
+    "TotalAmount": 17895,
+    "TaxExclusiveAmount": 14790,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-07-27",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "A03063963",
+        "PartyName": "LOKÍMICA, S.A.U.",
+        "TaxExclusiveAmount": 14790,
+        "PayableAmount": 17895
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=qtGPs3Gcl7lJ8Trn0ZPzLw%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1281; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 13956.04 EUR; Estado: RES",
+    "title": "Suministro, con instalación, de equipos de climatización en centros de barrio de las barriadas rurales",
+    "updated": "2026-07-31T09:40:08.288+02:00",
+    "ContractFolderID": "ASUECO 2026/1281",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro, con instalación, de equipos de climatización en centros de barrio de las barriadas rurales",
+    "TypeCode": "1",
+    "SubTypeCode": "1",
+    "TotalAmount": 16886,
+    "TaxExclusiveAmount": 13956,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-07-27",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "A27178789",
+        "PartyName": "OHL SERVICIOS-INGESAN S.A.",
+        "TaxExclusiveAmount": 13956,
+        "PayableAmount": 16886
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=M0%2BgDLFyTbnua%2Fi14w%2FPLA%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1298; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 6000 EUR; Estado: RES",
+    "title": "Servicio de producción del Rabanito Festival 2026",
+    "updated": "2026-08-05T13:54:27.571+02:00",
+    "ContractFolderID": "ASUECO-2026/1298",
+    "DurationMeasure": "3",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de producción del Rabanito Festival 2026",
+    "TypeCode": "2",
+    "SubTypeCode": "27",
+    "TotalAmount": 7260,
+    "TaxExclusiveAmount": 6000,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-03",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B27604164",
+        "PartyName": "Ajierro Siempre, S.L.U.",
+        "TaxExclusiveAmount": 6000,
+        "PayableAmount": 7260
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gLTn6bxxjoMzjChw4z%2FXvw%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1314; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 1470 EUR; Estado: RES",
+    "title": "Servicio para actividad conmemorativa del Día Internacional de la Juventud",
+    "updated": "2026-08-14T11:40:15.439+02:00",
+    "ContractFolderID": "ASUECO-2026/1314",
+    "DurationMeasure": "1",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio para actividad conmemorativa del Día Internacional de la Juventud",
+    "TypeCode": "2",
+    "SubTypeCode": "27",
+    "TotalAmount": 1617,
+    "TaxExclusiveAmount": 1470,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11946878",
+        "PartyName": "Pazos Hosteran, S.L.",
+        "TaxExclusiveAmount": 1470,
+        "PayableAmount": 1617
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y6sLnV9xTDY%2B1TMyIiZmzw%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1316; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 14876.03 EUR; Estado: RES",
+    "title": "Servicio de desarrollo del programa lúdico-juvenil de verano 2026 en las barriadas rurales y pedanía Cuartillos",
+    "updated": "2026-08-18T09:39:36.362+02:00",
+    "ContractFolderID": "ASUECO-2026/1316",
+    "DurationMeasure": "1",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de desarrollo del programa lúdico-juvenil de verano 2026 en las barriadas rurales y pedanía Cuartillos",
+    "TypeCode": "2",
+    "SubTypeCode": "27",
+    "TotalAmount": 18000,
+    "TaxExclusiveAmount": 14876,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11862075",
+        "PartyName": "Carriles Animación y Aventura, S.L.L.",
+        "TaxExclusiveAmount": 14876,
+        "PayableAmount": 18000
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oWrWqvNtdjomMOlAXxDEjw%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1313; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 2950 EUR; Estado: RES",
+    "title": "Servicio de organización del 7º Festival de Magia de Jerez",
+    "updated": "2026-08-18T09:36:02.738+02:00",
+    "ContractFolderID": "ASUECO-2026/1313",
+    "DurationMeasure": "2",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de organización del 7º Festival de Magia de Jerez",
+    "TypeCode": "2",
+    "SubTypeCode": "27",
+    "TotalAmount": 3569,
+    "TaxExclusiveAmount": 2950,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "G01901594",
+        "PartyName": "ASOCIACIÓN ESCEPLÁS",
+        "TaxExclusiveAmount": 2950,
+        "PayableAmount": 3569
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IUI01opfOQ2P%2Bo96UAV7cQ%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1318; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 13719.01 EUR; Estado: RES",
+    "title": "Obras contenidas en el documento técnico de Consolidación de talud en parque infantil de Lomopardo, decreto 277/2023,enjambre de borrascas 23/01/2026 a 16/02/2026.",
+    "updated": "2026-08-19T12:38:39.882+02:00",
+    "ContractFolderID": "ASUECO 2026/1318",
+    "DurationMeasure": "30",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Obras contenidas en el documento técnico de Consolidación de talud en parque infantil de Lomopardo, decreto 277/2023,enjambre de borrascas 23/01/2026 a 16/02/2026.",
+    "TypeCode": "3",
+    "SubTypeCode": "4510",
+    "TotalAmount": 16600,
+    "TaxExclusiveAmount": 13719,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B72390289",
+        "PartyName": "ITER TRIVIUM, S.L.U.",
+        "TaxExclusiveAmount": 13719,
+        "PayableAmount": 16600
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OcDp8GitVie5HQrHoP3G5A%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1349; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 531.2 EUR; Estado: RES",
+    "title": "Contrato basado en acuerdo marco para el servicio de coordinación en materia de seguridad y salud en fase de ejecución de la obra de Sustitución de lucernario de cumbrera en cubierta del CEIP LA UNIÓN.",
+    "updated": "2026-08-19T09:39:50.231+02:00",
+    "ContractFolderID": "ASUECO 2026/1349",
+    "DurationMeasure": "2",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Contrato basado en acuerdo marco para el servicio de coordinación en materia de seguridad y salud en fase de ejecución de la obra de Sustitución de lucernario de cumbrera en cubierta del CEIP LA UNIÓN.",
+    "TypeCode": "2",
+    "SubTypeCode": "12",
+    "TotalAmount": 642,
+    "TaxExclusiveAmount": 531,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "31678050N",
+        "PartyName": "Marco Antonio Rodríguez Calvo",
+        "TaxExclusiveAmount": 531,
+        "PayableAmount": 642
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=s0NTmjjxEwwUqXM96WStVA%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1348; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 34575 EUR; Estado: RES",
+    "title": "Sustitución de lucernario de cumbrera en cubierta del CEIP La Unión.",
+    "updated": "2026-08-19T09:11:27.010+02:00",
+    "ContractFolderID": "ASUECO 2026/1348",
+    "DurationMeasure": "2",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Sustitución de lucernario de cumbrera en cubierta del CEIP La Unión.",
+    "TypeCode": "3",
+    "SubTypeCode": "4522",
+    "TotalAmount": 41835,
+    "TaxExclusiveAmount": 34575,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "31702690L",
+        "PartyName": "Santiago Perea Manzano",
+        "TaxExclusiveAmount": 34575,
+        "PayableAmount": 41835
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ntrIYEj8ge0mMOlAXxDEjw%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1300; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 7251.56 EUR; Estado: RES",
+    "title": "Suministro de protectores de cañones de agua en campos de futbol dañados por el temporal.",
+    "updated": "2026-08-20T11:43:34.229+02:00",
+    "ContractFolderID": "ASUECO 2026/1300",
+    "DurationMeasure": "15",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro de protectores de cañones de agua en campos de futbol dañados por el temporal.",
+    "TypeCode": "1",
+    "SubTypeCode": "2",
+    "TotalAmount": 8774,
+    "TaxExclusiveAmount": 7251,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-03",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B29899432",
+        "PartyName": "GRUPO SOLUDE, S.L.U.",
+        "TaxExclusiveAmount": 7251,
+        "PayableAmount": 8774
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GDwy30%2B0VphSYrkJkLlFdw%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1322; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 531.2 EUR; Estado: RES",
+    "title": "Contrato basado en acuerdo marco para el servicio de coordinación en materia de seguridad y salud en fase de ejecución de la obra de adecentamiento e impermeabilización de cubierta en Biblioteca Central",
+    "updated": "2026-08-20T10:30:56.040+02:00",
+    "ContractFolderID": "ASUECO-2026/1322",
+    "DurationMeasure": "1",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Contrato basado en acuerdo marco para el servicio de coordinación en materia de seguridad y salud en fase de ejecución de la obra de adecentamiento e impermeabilización de cubierta en Biblioteca Central",
+    "TypeCode": "2",
+    "SubTypeCode": "12",
+    "TotalAmount": 642,
+    "TaxExclusiveAmount": 531,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "31678050N",
+        "PartyName": "MARCO ANTONIO RODRÍGUEZ CALVO",
+        "TaxExclusiveAmount": 531,
+        "PayableAmount": 642
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EUBSs36Ehr8kJPJS%2BPS9vg%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1323; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 39611.52 EUR; Estado: RES",
+    "title": "Adecentamiento e impermeabilización de cubierta en Biblioteca Central",
+    "updated": "2026-08-20T09:45:20.876+02:00",
+    "ContractFolderID": "ASUECO-2026/1323",
+    "DurationMeasure": "20",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Adecentamiento e impermeabilización de cubierta en Biblioteca Central",
+    "TypeCode": "3",
+    "SubTypeCode": "4545",
+    "TotalAmount": 47929,
+    "TaxExclusiveAmount": 39611,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11681988",
+        "PartyName": "GESMACONT, S.L.U.",
+        "TaxExclusiveAmount": 39611,
+        "PayableAmount": 47929
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3xeuHnU3ybmAAM7L03kM8A%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1334; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 581 EUR; Estado: RES",
+    "title": "Contrato basado en acuerdo marco para el servicio de coordinación en materia de de seguridad y salud en fase de ejecución de la obra de Reparación de los daños detectados en la cubierta del Mercado Central de Abastos.",
+    "updated": "2026-08-20T08:48:45.601+02:00",
+    "ContractFolderID": "ASUECO 2026/1334",
+    "DurationMeasure": "1",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Contrato basado en acuerdo marco para el servicio de coordinación en materia de de seguridad y salud en fase de ejecución de la obra de Reparación de los daños detectados en la cubierta del Mercado Central de Abastos.",
+    "TypeCode": "2",
+    "SubTypeCode": "12",
+    "TotalAmount": 703,
+    "TaxExclusiveAmount": 581,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "A97050165",
+        "PartyName": "Q SAFETY BY QUIRON PREVENCIÓN, S.A.",
+        "TaxExclusiveAmount": 581,
+        "PayableAmount": 703
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8MAYGb3rSo4IYE3ZiZ%2BxmQ%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1333; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 7830 EUR; Estado: RES",
+    "title": "Reparación de daños detectados en la cubierta del Mercado Central de Abastos. Ayudas Sucesión de borrascas Junta Andalucía.",
+    "updated": "2026-08-20T08:30:18.850+02:00",
+    "ContractFolderID": "ASUECO 2026/1333",
+    "DurationMeasure": "1",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Reparación de daños detectados en la cubierta del Mercado Central de Abastos. Ayudas Sucesión de borrascas Junta Andalucía.",
+    "TypeCode": "3",
+    "SubTypeCode": "4532",
+    "TotalAmount": 9474,
+    "TaxExclusiveAmount": 7830,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "31702690L",
+        "PartyName": "SANTIAGO PEREA MANZANO",
+        "TaxExclusiveAmount": 7830,
+        "PayableAmount": 9474
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ev3oqg0YrB7E6P%2FuLemXRw%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1317; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 531.2 EUR; Estado: RES",
+    "title": "Contrato basado en acuerdo marco para el servicio de coordinación en materia de seguridad y salud en fase de ejecución de la obra de Consolidación de talud en parque infantil de Lomopardo.",
+    "updated": "2026-08-20T08:13:28.265+02:00",
+    "ContractFolderID": "ASUECO 2026/1317",
+    "DurationMeasure": "30",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Contrato basado en acuerdo marco para el servicio de coordinación en materia de seguridad y salud en fase de ejecución de la obra de Consolidación de talud en parque infantil de Lomopardo.",
+    "TypeCode": "2",
+    "SubTypeCode": "12",
+    "TotalAmount": 642,
+    "TaxExclusiveAmount": 531,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "31678050N",
+        "PartyName": "MARCO ANTONIO RODRÍGUEZ CALVO",
+        "TaxExclusiveAmount": 531,
+        "PayableAmount": 642
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JR7UA%2Fipt5c7%2B9FIQYNjeQ%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1329; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 8845 EUR; Estado: RES",
+    "title": "Servicio Técnico e Instalación Eléctrica para actividad musical en Bda. La Asunción",
+    "updated": "2026-08-25T12:27:10.204+02:00",
+    "ContractFolderID": "ASUECO-2026/1329",
+    "DurationMeasure": "15",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio Técnico e Instalación Eléctrica para actividad musical en Bda. La Asunción",
+    "TypeCode": "2",
+    "SubTypeCode": "1",
+    "TotalAmount": 10702,
+    "TaxExclusiveAmount": 8845,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B75966028",
+        "PartyName": "EONOS TEAM PRO, S.L.",
+        "TaxExclusiveAmount": 8845,
+        "PayableAmount": 10702
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4pmVQh5m%2B%2FnECtSnloz%2BZQ%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1320; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 7000 EUR; Estado: RES",
+    "title": "Servicio de instalación eléctrica eventual para el evento Rabanito Festival",
+    "updated": "2026-08-25T10:41:05.299+02:00",
+    "ContractFolderID": "ASUECO-2026/1320",
+    "DurationMeasure": "15",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de instalación eléctrica eventual para el evento Rabanito Festival",
+    "TypeCode": "2",
+    "SubTypeCode": "27",
+    "TotalAmount": 8470,
+    "TaxExclusiveAmount": 7000,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B75966028",
+        "PartyName": "EONOS TEAM PRO, S.L.",
+        "TaxExclusiveAmount": 7000,
+        "PayableAmount": 8470
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=o%2BuLHQ6tSOnpxJFXpLZ%2B2A%3D%3D",
+    "summary": "Id licitación: ASUECO-2026/1319; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 10900 EUR; Estado: RES",
+    "title": "Servicio de producción y contratación de artistas para actividad musical en Bda. La Asunción (Distrito Este)",
+    "updated": "2026-08-25T10:38:33.080+02:00",
+    "ContractFolderID": "ASUECO-2026/1319",
+    "DurationMeasure": "1",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de producción y contratación de artistas para actividad musical en Bda. La Asunción (Distrito Este)",
+    "TypeCode": "2",
+    "SubTypeCode": "27",
+    "TotalAmount": 13189,
+    "TaxExclusiveAmount": 10900,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-17",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11928306",
+        "PartyName": "Tritón Livefun, S.L.",
+        "TaxExclusiveAmount": 10900,
+        "PayableAmount": 13189
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3rOwcpB68sTjHF5qKI4aaw%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1305; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 2031.6 EUR; Estado: RES",
+    "title": "Suministro de licencias definitivas para cámaras de seguridad",
+    "updated": "2026-08-25T09:19:25.345+02:00",
+    "ContractFolderID": "ASUECO 2026/1305",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro de licencias definitivas para cámaras de seguridad",
+    "TypeCode": "1",
+    "SubTypeCode": "2",
+    "TotalAmount": 2458,
+    "TaxExclusiveAmount": 2031,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "A28002335",
+        "PartyName": "SOCIEDAD IBÉRICA DE CONSTRUCCIONES ELÉCTRICA, S.A.",
+        "TaxExclusiveAmount": 2031,
+        "PayableAmount": 2458
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=d3AojeYMygxVYjgxA4nMUw%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1299; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 3124 EUR; Estado: RES",
+    "title": "Suministro, mediante arrendamiento, de WC químicos WC químico PMR para el evento Rabanito 2026",
+    "updated": "2026-08-25T09:01:04.746+02:00",
+    "ContractFolderID": "ASUECO 2026/1299",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro, mediante arrendamiento, de WC químicos WC químico PMR para el evento Rabanito 2026",
+    "TypeCode": "1",
+    "SubTypeCode": "1",
+    "TotalAmount": 3780,
+    "TaxExclusiveAmount": 3124,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B85849925",
+        "PartyName": "WC LOC ESPAÑA, S.L.",
+        "TaxExclusiveAmount": 3124,
+        "PayableAmount": 3780
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VoO25R%2FtVl5SYrkJkLlFdw%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1306; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 171.9 EUR; Estado: RES",
+    "title": "Suministro de placas conmemorativas para entrega a personas mayores y entidades homenajeadas en la XXV Semana de las Personas Mayores",
+    "updated": "2026-08-26T11:05:28.430+02:00",
+    "ContractFolderID": "ASUECO 2026/1306",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro de placas conmemorativas para entrega a personas mayores y entidades homenajeadas en la XXV Semana de las Personas Mayores",
+    "TypeCode": "1",
+    "SubTypeCode": "2",
+    "TotalAmount": 208,
+    "TaxExclusiveAmount": 171,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11694304",
+        "PartyName": "ROLDÁN ARÉVALO, S.L.",
+        "TaxExclusiveAmount": 171,
+        "PayableAmount": 208
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0c%2BSo6tA5fYS7pcxhTeWOg%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1321; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 97.78 EUR; Estado: RES",
+    "title": "Suministro de material de oficina para atender las necesidades del programa experiencias profesionales para el empleo (EPES) en su edición 2025 (N.º de expediente SC/EPS/0092/2025)",
+    "updated": "2026-08-26T10:06:18.143+02:00",
+    "ContractFolderID": "ASUECO 2026/1321",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro de material de oficina para atender las necesidades del programa experiencias profesionales para el empleo (EPES) en su edición 2025 (N.º de expediente SC/EPS/0092/2025)",
+    "TypeCode": "1",
+    "SubTypeCode": "2",
+    "TotalAmount": 118,
+    "TaxExclusiveAmount": 97,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11862067",
+        "PartyName": "PAPELERÍA INFORPAPEL LA MARQUESA, S.L.",
+        "TaxExclusiveAmount": 97,
+        "PayableAmount": 118
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=S65m9hNRTfB%2BF6L2uCfUWg%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1303; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 2341.7 EUR; Estado: RES",
+    "title": "Servicio de reparación del sistema de climatización por nebulizadores en instalaciones del Zoobotánico Jerez",
+    "updated": "2026-08-26T09:29:14.112+02:00",
+    "ContractFolderID": "ASUECO 2026/1303",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de reparación del sistema de climatización por nebulizadores en instalaciones del Zoobotánico Jerez",
+    "TypeCode": "2",
+    "SubTypeCode": "1",
+    "TotalAmount": 2833,
+    "TaxExclusiveAmount": 2341,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B56429095",
+        "PartyName": "CLIMA VIÑA, S.L.",
+        "TaxExclusiveAmount": 2341,
+        "PayableAmount": 2833
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=qr%2BP1GWIUG%2BTylGzYmBF9Q%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1315; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 12000 EUR; Estado: RES",
+    "title": "Servicio de comunicación digital ecuestre en redes sociales especializadas",
+    "updated": "2026-08-26T09:19:35.421+02:00",
+    "ContractFolderID": "ASUECO 2026/1315",
+    "DurationMeasure": "7",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de comunicación digital ecuestre en redes sociales especializadas",
+    "TypeCode": "2",
+    "SubTypeCode": "1",
+    "TotalAmount": 14520,
+    "TaxExclusiveAmount": 12000,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "J05343314",
+        "PartyName": "GC ECUESTRE, S.C.",
+        "TaxExclusiveAmount": 12000,
+        "PayableAmount": 14520
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=pIEMUY%2BJ3HJSYrkJkLlFdw%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1295; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 5789.81 EUR; Estado: RES",
+    "title": "Servicio de diseño de materiales de divulgación de nuevos programas de conservación del centro de conservación de la Biodiversidad Zoobotánico Jerez Alberto Durán en España.",
+    "updated": "2026-08-26T09:06:38.789+02:00",
+    "ContractFolderID": "ASUECO 2026/1295",
+    "DurationMeasure": "3",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de diseño de materiales de divulgación de nuevos programas de conservación del centro de conservación de la Biodiversidad Zoobotánico Jerez Alberto Durán en España.",
+    "TypeCode": "2",
+    "SubTypeCode": "15",
+    "TotalAmount": 6137,
+    "TaxExclusiveAmount": 5789,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-10",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "32085790P",
+        "PartyName": "Natalia Albasanz Edison",
+        "TaxExclusiveAmount": 5789,
+        "PayableAmount": 6137
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=M6fNCVCgikL9pbnDwlaUlg%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1388; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 1375 EUR; Estado: RES",
+    "title": "Suministro  de material para la promoción de Jerez como capital española de la gastronomía 2026 en el ámbito del convenio de colaboración con bodegas Fundador.",
+    "updated": "2026-08-26T14:10:36.880+02:00",
+    "ContractFolderID": "ASUECO 2026/1388",
+    "DurationMeasure": "15",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro  de material para la promoción de Jerez como capital española de la gastronomía 2026 en el ámbito del convenio de colaboración con bodegas Fundador.",
+    "TypeCode": "1",
+    "SubTypeCode": "2",
+    "TotalAmount": 1663,
+    "TaxExclusiveAmount": 1375,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-24",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11922945",
+        "PartyName": "SIMK 2014, S.L.",
+        "TaxExclusiveAmount": 1375,
+        "PayableAmount": 1663
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vZOp%2FfBUck5t5r0ngvMetA%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1365; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 1200 EUR; Estado: RES",
+    "title": "Suministro mediante alquiler de mobiliario para celebración Fiestas de la Vendimia 2026.",
+    "updated": "2026-08-26T12:53:45.101+02:00",
+    "ContractFolderID": "ASUECO 2026/1365",
+    "DurationMeasure": "1",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro mediante alquiler de mobiliario para celebración Fiestas de la Vendimia 2026.",
+    "TypeCode": "1",
+    "SubTypeCode": "1",
+    "TotalAmount": 1452,
+    "TaxExclusiveAmount": 1200,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-24",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B11674751",
+        "PartyName": "ALQUILERES SOTO ARRIAZA, S.L.",
+        "TaxExclusiveAmount": 1200,
+        "PayableAmount": 1452
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YTbawU4aerAeIBJRHQiPkQ%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1135; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 10823 EUR; Estado: RES",
+    "title": "Servicio para organizar el acto de presentación del proyecto \"JEREZ CIUDAD CULTURAL\".",
+    "updated": "2026-08-27T13:45:29.615+02:00",
+    "ContractFolderID": "ASUECO 2026/1135",
+    "DurationMeasure": "1",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio para organizar el acto de presentación del proyecto \"JEREZ CIUDAD CULTURAL\".",
+    "TypeCode": "2",
+    "SubTypeCode": "26",
+    "TotalAmount": 13095,
+    "TaxExclusiveAmount": 10823,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-06-22",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B75797381",
+        "PartyName": "SD MOMENTS 25, S.L.",
+        "TaxExclusiveAmount": 10823,
+        "PayableAmount": 13095
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PrPbFMg6wO6P66GS%2BONYvQ%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1134; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 3712.36 EUR; Estado: RES",
+    "title": "Servicio de alojamiento para los participantes en el certamen nacional de música \"6 GRUPOS 6\".",
+    "updated": "2026-08-27T13:27:08.169+02:00",
+    "ContractFolderID": "ASUECO 2026/1134",
+    "DurationMeasure": "3",
+    "unitCode": "DAY",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Servicio de alojamiento para los participantes en el certamen nacional de música \"6 GRUPOS 6\".",
+    "TypeCode": "2",
+    "SubTypeCode": "17",
+    "TotalAmount": 4083,
+    "TaxExclusiveAmount": 3712,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-06-19",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "A41445800",
+        "PartyName": "INTURJOVEN, S.A.",
+        "TaxExclusiveAmount": 3712,
+        "PayableAmount": 4083
+      }
+    ]
+  },
+  {
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EzkGJtsKa5teKgd8LfVV9g%3D%3D",
+    "summary": "Id licitación: ASUECO 2026/1358; Órgano de Contratación: Junta de Gobierno Local del Ayuntamiento de Jerez; Importe: 1627.96 EUR; Estado: RES",
+    "title": "Suministro mediante alquiler de aseos químicos necesarios para celebración Fiestas de la Vendimia 2026.",
+    "updated": "2026-08-27T07:55:33.076+02:00",
+    "ContractFolderID": "ASUECO 2026/1358",
+    "DurationMeasure": "1",
+    "unitCode": "MON",
+    "ContractFolderStatusCode": "RES",
+    "Name": "Suministro mediante alquiler de aseos químicos necesarios para celebración Fiestas de la Vendimia 2026.",
+    "TypeCode": "1",
+    "SubTypeCode": "1",
+    "TotalAmount": 1969,
+    "TaxExclusiveAmount": 1627,
+    "ProcedureCode": "6",
+    "UrgencyCode": "1",
+    "arrayTenderResult": [
+      {
+        "ResultCode": "8",
+        "AwardDate": "2026-08-24",
+        "ReceivedTenderQuantity": "1",
+        "PartyIdentification": "B85849925",
+        "PartyName": "WC Loc España,S.L. ",
+        "TaxExclusiveAmount": 1627,
+        "PayableAmount": 1969
+      }
+    ]
+  }
+]
